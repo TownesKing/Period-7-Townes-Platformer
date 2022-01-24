@@ -16,10 +16,3 @@ if (!other.iFrame) {
 	}
 }
 
-function enemyDeth(){
-	global.points = global.points +100
-	if (random_range(0,10) <4){
-		instance_create_depth(other.x,other.y,"Instances",coin)
-		}
-	instance_destroy(other)
-}

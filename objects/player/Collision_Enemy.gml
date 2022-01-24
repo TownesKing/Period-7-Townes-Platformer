@@ -1,8 +1,8 @@
 /// @description damage from enemy
 // You can write your code in this editor
-if (y+50 <= other.y) 
+if (y <= other.y - other.sprite_height+5) 
 	{
-	script_execute(enemyDamage)
+	instance_destroy(other)
 	}
 else 
 	{
