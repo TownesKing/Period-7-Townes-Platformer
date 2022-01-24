@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if (y <= other.y - other.sprite_height+5) 
 	{
-	instance_destroy(other)
+	script_execute(enemyDeth)
 	}
 else 
 	{
