@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description VAR set
 iFrame=false;
 hp=1;
 invTimer = 2;

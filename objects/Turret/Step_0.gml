@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description iFrame & Turret shooting
 if (iFrame) 
 	{
 	invTimer -=1/room_speed;

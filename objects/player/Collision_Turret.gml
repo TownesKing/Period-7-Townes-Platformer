@@ -1,2 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description kill a turret
+if (y <= other.y - other.sprite_height+5) 
+	{
+	script_execute(enemyDeth)
+	}
