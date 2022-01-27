@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Var and global var
 
 // movement variables
 xDirection =0;
@@ -11,5 +10,3 @@ invTimer = 2;
 iFrame = false;
 
 //Global Var
-global.coins = 0;
-global.hp = 3;

@@ -50,7 +50,7 @@ yVector = -8
 //die in pit
 if (y >= room_height)
 {
-script_execute(pDeth)
+script_execute(pDeth);
 }
 
 //iFrame
@@ -59,6 +59,6 @@ if (iFrame)
 	invTimer -=1/room_speed;
 	if (invTimer<0) {
 		invTimer = 2;
-		iFrame = false
+		iFrame = false;
 		}
 	}

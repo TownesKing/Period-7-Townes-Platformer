@@ -1,2 +1,2 @@
 /// @description Stops NoClip
-instance_destroy()
+instance_destroy();
