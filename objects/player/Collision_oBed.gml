@@ -1,4 +1,4 @@
 /// @description Game Start
-global.timer = 60;
+global.timer = global.timerSet;
 global.level = 1
 room_goto(Room1);

@@ -5,6 +5,6 @@ if global.timer > 0
 	}
 else
 	{
-	global.timer = 60
+	global.timer = global.timerSet
 	room_goto(Room0)
 	}
