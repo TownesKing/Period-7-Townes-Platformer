@@ -8,4 +8,5 @@ else
 	{
 	script_execute(pDamage);
 	x = x - xVector;
+	other.x =other.x - other.xVector;
 	}

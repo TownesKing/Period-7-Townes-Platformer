@@ -12,11 +12,11 @@ if (iFrame)
 //speed calc
 if ((player.x < x) and (xDirection > -1))
 	{
-	xDirection =- 1;
+	xDirection = xDirection - acceleration;
 	}
 else if ((player.x > x) and (xDirection < 1))
 	{
-	xDirection =+ 1;
+	xDirection = xDirection + acceleration;
 	}
 xVector = xDirection * xSpeed;
 yVector = yVector + yGravity;
@@ -25,8 +25,8 @@ if (place_meeting(x+xVector, y, dirtTile))
 {
 	while (!place_meeting(x+xDirection, y, dirtTile))
 	{
-		x = x + xVector;
-		
+		x = x + xDirection;
+		jump = true;
 	}
 	xVector = 0;
 }
@@ -45,6 +45,7 @@ y = y + yVector;
 if(place_meeting(x, y+1, dirtTile) and (jump))
 {
 yVector = -8
+jump = false
 }
 //die in pit
 if (y >= room_height)
