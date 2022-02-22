@@ -1,11 +1,12 @@
 {
   "resources": [
+    {"id":{"name":"Room4","path":"rooms/Room4/Room4.yy",},"order":8,},
     {"id":{"name":"player","path":"objects/player/player.yy",},"order":6,},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":1,},
     {"id":{"name":"oBed","path":"objects/oBed/oBed.yy",},"order":9,},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":3,},
     {"id":{"name":"Sprite7","path":"sprites/Sprite7/Sprite7.yy",},"order":6,},
-    {"id":{"name":"Room5","path":"rooms/Room5/Room5.yy",},"order":7,},
+    {"id":{"name":"Room6","path":"rooms/Room6/Room6.yy",},"order":7,},
     {"id":{"name":"enemyDamage","path":"scripts/enemyDamage/enemyDamage.yy",},"order":1,},
     {"id":{"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},"order":5,},
     {"id":{"name":"enemyDeth","path":"scripts/enemyDeth/enemyDeth.yy",},"order":3,},
@@ -14,6 +15,7 @@
     {"id":{"name":"heart","path":"objects/heart/heart.yy",},"order":3,},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":2,},
     {"id":{"name":"EnemyGrav","path":"objects/EnemyGrav/EnemyGrav.yy",},"order":0,},
+    {"id":{"name":"Object14","path":"objects/Object14/Object14.yy",},"order":12,},
     {"id":{"name":"jumpPadSprite","path":"sprites/jumpPadSprite/jumpPadSprite.yy",},"order":7,},
     {"id":{"name":"EnemyFollow","path":"objects/EnemyFollow/EnemyFollow.yy",},"order":10,},
     {"id":{"name":"HUD","path":"objects/HUD/HUD.yy",},"order":27,},
@@ -24,7 +26,7 @@
     {"id":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"order":11,},
     {"id":{"name":"pDeth","path":"scripts/pDeth/pDeth.yy",},"order":0,},
     {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},"order":4,},
-    {"id":{"name":"Room4","path":"rooms/Room4/Room4.yy",},"order":3,},
+    {"id":{"name":"Room5","path":"rooms/Room5/Room5.yy",},"order":3,},
     {"id":{"name":"jumpPadObj","path":"objects/jumpPadObj/jumpPadObj.yy",},"order":8,},
     {"id":{"name":"enemyProjectile","path":"sprites/enemyProjectile/enemyProjectile.yy",},"order":0,},
     {"id":{"name":"coin","path":"objects/coin/coin.yy",},"order":2,},
@@ -55,6 +57,7 @@
     {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
     {"roomId":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
     {"roomId":{"name":"Room5","path":"rooms/Room5/Room5.yy",},},
+    {"roomId":{"name":"Room6","path":"rooms/Room6/Room6.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

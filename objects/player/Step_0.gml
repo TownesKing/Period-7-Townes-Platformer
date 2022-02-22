@@ -3,14 +3,14 @@
 //key imput
 right = keyboard_check(vk_right);
 left = keyboard_check(vk_left);
-jump = keyboard_check(vk_space)
+jump = keyboard_check(vk_space);
+dev = keyboard_check(vk_numpad0); 
 //speed calc
 xDirection = right - left;
 xVector = xDirection * xSpeed;
 yVector = yVector + yGravity;
 //movement
-
-
+//if dev {room_goto_next()}
 //grav
 //collision floor
 if (place_meeting(x+xVector, y, dirtTile))
