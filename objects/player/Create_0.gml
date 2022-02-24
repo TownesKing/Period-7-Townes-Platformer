@@ -10,3 +10,10 @@ invTimer = 2;
 iFrame = false;
 
 //Global Var
+//states set
+enum states
+	{
+	walking, 
+	jumping
+	}
+state = states.walking
