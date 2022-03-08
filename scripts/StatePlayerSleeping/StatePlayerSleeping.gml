@@ -1,9 +1,9 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function StatePlayerJumping()
+function StatePlayerSleeping()
 {
 	//to do
-	yVector = -8;
+	CheckImput();
 	
 	//direction
 	if (xDirection != 0)
@@ -11,10 +11,12 @@ function StatePlayerJumping()
 		image_xscale = xDirection;
 		}
 	
-	//animation
+	//speed calc
 	
+	//animation
+
 	//how change out
-	if(place_meeting(x, y+1, dirtTile) and (jump))
+	if(image_index = 2)
 		{
 		state = states.walking
 		}

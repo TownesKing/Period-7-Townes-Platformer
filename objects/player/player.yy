@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite3",
-    "path": "sprites/Sprite3/Sprite3.yy",
+    "name": "PlayerDefault",
+    "path": "sprites/PlayerDefault/PlayerDefault.yy",
   },
   "solid": false,
   "visible": true,

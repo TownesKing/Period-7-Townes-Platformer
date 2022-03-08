@@ -1,14 +1,8 @@
 /// @description Mov, Jump, Grav, Col, bound
 // You can write your code in this editor
 
-if (state == states.walking)
-	{
-	StatePlayerWalking()
-	}
-else if (state == states.jumping)
-	{
-	StatePlayerJumping()
-	}
+script_execute(states_array[state]);
+sprite_index = sprite_array[state];
 
 //die in pit
 if (y >= room_height)

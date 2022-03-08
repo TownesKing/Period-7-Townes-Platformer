@@ -3,10 +3,16 @@
 function StatePlayerWalking()
 {
 	//to do
-	CheckImput()
+	CheckImput();
 	//speed calc
 	xDirection = right - left;
-
+	
+	//direction
+	if (xDirection != 0)
+		{
+		image_xscale = xDirection;
+		}
+	
 	xVector = xDirection * xSpeed;
 	CheckCollisionX()
 	x = x + xVector;
@@ -20,5 +26,9 @@ function StatePlayerWalking()
 	if(place_meeting(x, y+1, dirtTile) and (jump))
 		{
 		state = states.jumping
+		}
+	else if sleep
+		{
+		state = states.sleeping
 		}
 }

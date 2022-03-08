@@ -14,6 +14,17 @@ iFrame = false;
 enum states
 	{
 	walking, 
-	jumping
+	jumping,
+	sleeping
 	}
+	
+states_array[states.walking] = StatePlayerWalking;
+states_array[states.jumping] = StatePlayerJumping;
+states_array[states.sleeping] = StatePlayerSleeping
+
+sprite_array[states.walking] = PlayerDefault
+sprite_array[states.jumping] = PlayerDefault
+sprite_array[states.sleeping] = PlayerSleeping
+	
 state = states.walking
+
