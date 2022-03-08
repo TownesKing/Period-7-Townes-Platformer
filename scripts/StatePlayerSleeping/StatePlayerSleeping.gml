@@ -16,7 +16,7 @@ function StatePlayerSleeping()
 	//animation
 
 	//how change out
-	if(image_index = 2)
+	if(image_index = 3)
 		{
 		state = states.walking
 		}
